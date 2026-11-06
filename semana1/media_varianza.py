@@ -25,3 +25,10 @@ def varianza_muestral(datos):
     return suma / (len(datos) - 1)
 
 print("Varianza muestral:", varianza_muestral(datos))
+
+if __name__ == "__main__":
+    datos = [2, 4, 4, 4, 5, 5, 7, 9]
+    print("Media:", media(datos))
+    print("Varianza:", varianza(datos))
+    print("Varianza muestral:", varianza_muestral(datos))
+    
